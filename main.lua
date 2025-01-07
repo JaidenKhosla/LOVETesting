@@ -1,3 +1,6 @@
+local num = 0
+
 function love.draw()
-    love.graphics.print('Hello World!', 400, 300)
+    num = num+1
+    love.graphics.print(num, 400, 300)
 end
